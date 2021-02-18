@@ -1,0 +1,68 @@
+.chatroom {
+    width: 480px;
+    height: 480px;
+   }
+   .massege {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     align-content: space-between;
+     width: 480px;
+     height: 50px;
+   }
+   .chat{
+     margin: 10px 0;
+     border: 1px solid SkyBlue;
+     padding: 10px;
+     height: 150px;
+     overflow-y: scroll;
+     position: relative;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: column;
+   }
+   
+   .chat > div {
+     max-width: 80%;
+     padding: 5px 10px;
+     margin: 5px 0;
+     border-radius: 3px;
+     color: #000;
+   }
+   
+   input{
+    width: 50%;
+    margin:1px 2px;
+    padding: 6px 15px;
+    border-radius: 1px;
+    border-color: SkyBlue;
+   }
+   
+   .btn {
+     padding: 0;
+     background-color: transparent;
+     border: none;
+     outline: none;
+     -webkit-tap-highlight-color: transparent;
+     box-shadow: none;
+     cursor: pointer;
+   
+     margin: 1px 2px;
+     padding: 10px 15px;
+     border-radius: 1px;
+     font-size: 10px;
+     line-height: 10px;
+     text-transform: uppercase;
+     color: white;
+     background: SkyBlue;
+     transition: 0.3s;
+   }
+   
+   .chat .recieved {
+     align-self: flex-start;
+     border: 1px solid SkyBlue;
+   }
+   .chat .sent {
+     align-self: flex-end;
+     border: 1px solid SkyBlue;
+   }
